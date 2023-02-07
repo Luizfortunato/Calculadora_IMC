@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="message_classificacao">Classificação: %1$s</string>
+    <string name="hint_peso">Informe o seu peso Kg:</string>
+    <string name="hint_altura">Informe a sua altura Mt:</string>
+    <string name="label_btn_calcular">Calcular</string>
+    <string name="title_imc_result">O resultado do seu IMC é:</string>
+    <string name="table_title">Tabela de classificação do IMC</string>
+    <string name="table_abaixo_peso">Menor que 18.5 - Abaixo de peso</string>
+    <string name="table_peso_ideal">Entre 18.5 e 24.9 - Peso ideal</string>
+    <string name="table_sobrepeso">Entre 25.0 e 29.9 - Sobrepeso</string>
+    <string name="tabele_obesidade">Entre 30.0 e 39.9 - Obesidade</string>
+    <string name="table_obesidade_grave">Maior que 40.0 - Obesidade grave</string>
+
+</resources>

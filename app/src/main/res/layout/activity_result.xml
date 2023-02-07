@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:text="@string/title_imc_result"
+        android:textColor="#785AAE"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center"
+        tools:text="38.6"
+        android:textSize="42sp"/>
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        tools:text="Classificação: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/table_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/table_title"
+        android:textAlignment="center"
+        android:textColor="#785AAE"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_icone_altura"
+        android:layout_width="117dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icone_classificacao" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:text="@string/table_abaixo_peso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#A6FFDE3B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textAlignment="center"
+        android:text="@string/table_peso_ideal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#994FF544"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textAlignment="center"
+        android:text="@string/table_sobrepeso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#A7FA9501"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textAlignment="center"
+        android:text="@string/tabele_obesidade"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#99FF5200"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textAlignment="center"
+        android:text="@string/table_obesidade_grave"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#9AFF0100"/>
+
+
+</LinearLayout>

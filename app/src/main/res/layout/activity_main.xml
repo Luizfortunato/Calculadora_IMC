@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="81dp"
+        android:layout_height="84dp"
+        android:src="@drawable/icone_peso"/>
+
+    <EditText
+        android:id="@+id/edittext_Peso"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:hint="@string/hint_peso"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/img_icone_altura"
+        android:layout_width="149dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/edittext_Peso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/icone_altura" />
+
+
+
+    <EditText
+        android:id="@+id/edittext_Altura"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="48dp"
+        android:layout_below="@+id/img_icone_altura"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_altura"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/label_btn_calcular"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
