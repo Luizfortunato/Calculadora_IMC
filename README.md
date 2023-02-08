@@ -21,6 +21,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
     - TextView
     - EditText
     - Button
+    - ImageView
 - Toast para display de mensagens
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
