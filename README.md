@@ -7,9 +7,10 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 <!-- You can add more screenshots here if you like -->
 <img src="/results/main_activity.png" width="280">&emsp; 
 <img src="/results/main_activity_dados.png" width="280">&emsp;
+>
 <img src="/results/result_activity.png" width="280">&emsp;
 <img src="/results/result_activity_adicional.png" width="280">&emsp;
-
+>
 ## :wrench:Tecnologias
 * Kotlin
 * Activity para host de telas
@@ -24,15 +25,13 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
-
-
-### :triangular_flag_on_post:TODO
+>
+## :triangular_flag_on_post:TODO
 - Aprimorar a UI e UX.
-
+>
 ## :octocat:Author
 - Luiz Gabriel Fortunato de França (contate-me no [LinkedIn](www.linkedin.com/in/luiz-fortunato-bb058191))
-
-
+>
 ## :key:License
 ```
 The MIT License (MIT)
