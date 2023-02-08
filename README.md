@@ -30,7 +30,7 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 - Aprimorar a UI e UX.
 >
 ## :octocat:Author
-- Luiz Gabriel Fortunato de França (contate-me no [LinkedIn](www.linkedin.com/in/luiz-fortunato-bb058191))
+- Luiz Gabriel Fortunato de França (contate-me no [LinkedIn](https://www.linkedin.com/in/luiz-fortunato-bb058191))
 >
 ## :key:License
 ```
